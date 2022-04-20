@@ -1,0 +1,15 @@
+---
+version: "3"
+services:
+  webcall:
+    image: webcall
+    build:
+      context: .
+    container_name: webcall_server
+    volumes:
+      - ./db/:/app/db/
+      - ./config.ini:/app/config.ini
+    ports:
+      - 127.0.0.1:8067:8067
+      - 127.0.0.1:8071:8071
+    restart: always
