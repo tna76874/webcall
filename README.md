@@ -34,6 +34,13 @@ you will see practically no additional CPU load.
 
 [https://timur.mobi/webcall/install](https://timur.mobi/webcall/install)
 
+## Docker
+
+Install docker and docker-compose and run:
+
+```bash
+docker-compose up
+```
 
 # Decentral WebCall
 
@@ -67,5 +74,4 @@ AGPL3.0 - see: [LICENSE](LICENSE)
 - AppRTC's sdputils.js: prefercodec.js
 - mr-wang-from-next-door: GetOutboundIP()
 - github.com/mahan: AtomBool
-
 
